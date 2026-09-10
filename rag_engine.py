@@ -35,7 +35,7 @@ from openai import OpenAI
 KB_DIR = os.path.join(os.path.dirname(__file__), "knowledge_base")
 CHUNK_MAX_CHARS = 900
 GROQ_BASE_URL = "https://api.groq.com/openai/v1"
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL = "openai/gpt-oss-120b"
 
 SYSTEM_INSTRUCTIONS = """You are the official assistant for the IEEE RAS \
 (Robotics and Automation Society) Student Branch Chapter at VIT Chennai.
